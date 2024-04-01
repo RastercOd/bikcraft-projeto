@@ -1,0 +1,19 @@
+@import './global/global.css';
+
+@import './tipografia/tipografia.css';
+
+@import './global/header.css';
+
+@import './global/introducao.css';
+
+@import './bicicletas/bicicletas-listas.css';
+
+:root {
+    --color-bg-header: #000000;
+    --color-bg-header-m: #111111;
+    --color-header-m-hover: #2e2e2e2e;
+    --color-header-link: #ffffff;
+    --color-paragrafo-ini: #b2b2b2;
+    --color-detalhe: #ffbb00;
+    --color-button-a: #332200;
+}
