@@ -51,12 +51,12 @@
     width: 12px;
     height: 8px;
     margin-right: 8px;
-    transition: 0.9s;
+    transition: 0.4s;
 }
 
 .bicicletas-info a:hover h3::before {
     width: 20px;
-    transition: 0.9s;
+    transition: 0.4s;
 }
 
 .bicicletas-info li span { /*aqui é a soma do width e margin-right do h3 before*/
