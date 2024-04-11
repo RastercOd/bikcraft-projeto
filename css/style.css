@@ -10,6 +10,8 @@
 
 @import './tecnologia/tecnologia.css';
 
+@import './parceiros/parceiros.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;

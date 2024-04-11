@@ -42,17 +42,6 @@
     color: var(--color-paragrafo-ini);
 }
 
-.link {
-    display: inline-block;
-    margin-bottom: 80px;
-    padding: 20px;
-    background: var(--color-detalhe);
-    color: var(--color-bg-header-m);
-    text-transform: uppercase;
-    border-radius: 4px;
-    font-weight: 600;
-}
-
 .tecnologia-vantagens {
     display: flex;
     gap: 30px;
@@ -84,12 +73,12 @@
     }
 
     .text-span {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         margin-bottom: 15px;
     }
 
     .tecnologia-conteudo h2 {
-        font-size: 2.4rem;
+        font-size: 2.1rem;
     }
 
     .tecnologia-conteudo > p {
@@ -98,5 +87,18 @@
 
     .tecnologia-img {
         display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .tecnologia-vantagens {
+        flex-direction: column;
+    }
+
+    .link {
+        display: inline-block;
+        color: var(--color-detalhe);
+        font-size: 1.5rem;
     }
 }
