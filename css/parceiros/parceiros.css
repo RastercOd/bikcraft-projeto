@@ -2,6 +2,8 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 120px;
+    padding: 0 20px;
 }
 
 .parceiros ul {
@@ -13,3 +15,44 @@
     margin-top: 50px;
 }
 
+.parceiros li {
+    padding: 32px;
+    display: flex; /*estou colocando o display flex aqui, para que as imagens do li fiquem alinhadas ao centro*/
+    border-left: 2px solid #eaeaeaaa;
+    border-bottom: 2px solid #eaeaeaaa;
+}
+
+.parceiros .none-border-left {
+    border-left: none;
+}
+
+.parceiros .none-border-bottom {
+    border-bottom: none;
+}
+
+.parceiros img {
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    
+    .parceiros > h2 {
+        font-size: 2rem;
+    }
+
+    .parceiros ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parceiros{
+        margin-bottom: 60px;
+    }
+
+    .parceiros .none-border-left-media {
+        border-left: none;
+    }
+
+    .parceiros .none-border-bottom-media {
+        border-bottom: 2px solid #eaeaeaaa;
+    }
+}

@@ -12,6 +12,8 @@
 
 @import './parceiros/parceiros.css';
 
+@import './Depoimentos/depoimentos.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;
