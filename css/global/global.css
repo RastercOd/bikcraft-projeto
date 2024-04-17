@@ -49,3 +49,9 @@ img[src$=".jpg"] {
 .link:hover {
     color: white;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

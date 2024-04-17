@@ -39,7 +39,6 @@
 }
 
 .button {
-    color: var(--color-header-link);
     padding: 16px 32px;
     background: var(--color-detalhe);
     display: inline-block;

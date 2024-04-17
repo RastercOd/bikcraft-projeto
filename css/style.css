@@ -14,6 +14,8 @@
 
 @import './Depoimentos/depoimentos.css';
 
+@import './Seguros/seguros.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;
