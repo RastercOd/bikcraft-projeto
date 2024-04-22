@@ -1,0 +1,32 @@
+.titulo {
+    background: #111111;
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo p {
+    color: #b2b2b2;
+}
+
+.titulo h1 {
+    color: #ffffff;
+}
+
+.termos {
+    padding: 80px 20px;
+}
+
+.termos h2 {
+    margin-bottom: 20px;
+}
+
+.termos p {
+    max-width: 75ch;
+    margin-bottom: 24px;
+}

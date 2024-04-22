@@ -1,11 +1,12 @@
 .footer-bg {
     background: #000000;
+    font-family: "Poppins", sans-serif;
+    padding-top: 60px;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    padding-top: 60px;
 }
 
 .footer h3 {
@@ -37,7 +38,15 @@ li {
 .footer-info .icons {
     display: flex;
     gap: 32px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-info .dados::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #b2b2b2;
 }
 
 ion-icon {

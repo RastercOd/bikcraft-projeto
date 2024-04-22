@@ -18,6 +18,8 @@
 
 @import './footer/footer.css';
 
+@import './termos/termos.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;
