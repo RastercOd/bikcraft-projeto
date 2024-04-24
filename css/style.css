@@ -20,6 +20,8 @@
 
 @import './termos/termos.css';
 
+@import './bicicletas/bicicletas.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;
