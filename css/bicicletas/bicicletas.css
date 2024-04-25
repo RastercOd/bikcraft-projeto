@@ -1,8 +1,16 @@
+.bicicletas-bg {
+    background: linear-gradient(to right, #ffffff 30%, #000000 0%);
+}
+
+.bicicletas-bg ul li {
+    color: #b2b2b2 !important;    
+}
+
 .bicicletas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    padding: 60px 0;
+    padding: 60px 20px;
 }
 
 .bicicletas-img {
@@ -22,13 +30,13 @@
 
 .bicicletas-bg:nth-child(3) {
     background-color: #111111;
-    box-shadow: inset 580px 0 #ffffff;
 }
 
 .bicicletas-conteudo {
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 20px;
+    align-content: start;
 }
 
 .bicicletas-conteudo h2 {
@@ -75,4 +83,34 @@
 }
 .bicicletas-conteudo a {
     place-self: end;
+}
+
+.seta {
+    display: flex;
+    align-items: center;
+}
+
+.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta.svg);
+    transition: transform 0.5s;
+}
+
+.seta:hover::after {
+    transform: translateX(4px);
+}
+
+@media (max-width: 800px) {
+    .bicicletas {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .bicicletas-bg {
+        background: none;
+    }
 }

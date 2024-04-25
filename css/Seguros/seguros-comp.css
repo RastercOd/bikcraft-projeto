@@ -1,0 +1,17 @@
+.vantagens-bg {
+    background: #000000;
+}
+
+.vantagens {
+    padding: 120px 0;
+}
+
+.vantagens h2 {
+    color: #ffffff;
+}
+
+.detal {
+    font-size: 1.4rem;
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
