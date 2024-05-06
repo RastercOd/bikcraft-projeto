@@ -1,0 +1,115 @@
+.titulo-bg {
+    background: #111111;
+}
+
+.bicicleta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicicletas-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bicicletas-img img {
+    flex: 1;
+    min-width: 200px;
+}
+
+.bicicletas-img img:first-child {
+    min-width: 100%;
+}
+
+.bicicleta-conteudo > p {
+    color: #b2b2b2;
+    margin-bottom: 30px;
+}
+
+.bicicleta-conteudo  h2 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    letter-spacing: 0.015em;
+}
+
+.bicicleta-comprar {
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-content: start;
+    gap: 8px 12px;
+    margin-bottom: 40px;
+}
+
+.bicicleta-comprar a {
+    grid-row: span 2;
+}
+
+.bicicleta-comprar span {
+    display: flex;
+    gap: 5px;
+    background: #000000;
+    color: #9c9c9c;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+.bicicletas-infor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.bicicletas-infor li h3 {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.bicicletas-infor, .bicicleta-ficha {
+    background: #000000;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+.bicicleta-ficha li {
+    padding: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.bicicleta-ficha li::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #5d5d5d;
+}
+
+@media (max-width: 800px) {
+    .bicicleta {
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .bicicletas-img {
+        grid-row: 2; /*aqui eu estou fazendo com que as imagens iram para baixo do conteudo de texto */
+    }
+}
+
+@media (max-width: 400px) {
+    .bicicletas-infor {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicleta-comprar {
+        grid-template-columns: 1fr;
+    }
+}
