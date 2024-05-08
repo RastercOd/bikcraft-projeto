@@ -26,6 +26,8 @@
 
 @import '../css/bicicletas/nimbus.css';
 
+@import './contato/contato.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;
