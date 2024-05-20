@@ -64,4 +64,8 @@
     .lojas-item h3 {
         padding-left: 15px;
     }
+
+    .lojas-item .tempo {
+        margin-bottom: 60px;
+    }
 }

@@ -32,6 +32,8 @@
 
 @import './contato/localizacao.css';
 
+@import './orçamento/orcamento.css';
+
 :root {
     --color-bg-header: #000000;
     --color-bg-header-m: #111111;
