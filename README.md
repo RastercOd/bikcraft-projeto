@@ -1,7 +1,9 @@
 # Projeto realizado no Curso da Origamid
+<br>
 
 ![Site academico de uma loja de bicicleta](https://github.com/RastercOd/bikcraft-projeto/assets/118366405/6d663f73-3748-41ca-8b85-9ebe67efedbd)
-No curso realizado pelo professor André Rafael, abordamos o HTML e CSS na sua base, para termos uma noção de como tudo é feito para desenvolvedores Front-End.
+No curso realizado pelo professor André Rafael, abordamos os conceitos básicos de HTML e CSS, para termos uma noção de como tudo é feito para desenvolvedores Front-End.
+<br>
 <br>
 ## Material Acadêmico
 
@@ -14,6 +16,6 @@ No curso realizado pelo professor André Rafael, abordamos o HTML e CSS na sua b
 | Ferramentas        | Começamos a usar as linhas de comandos no terminal, utilizando o gerenciador de pacotes `NPM`, e a criar um repositório no Git utilizando comandos no terminal. |
 | Formulários e Atributos | Aprendemos como criar um formulário e usamos seus atributos dentro do `form`. |
 | JavaScript Básico  | Pequenos atributos da linguagem de programação JS, e como manipular o `DOM`. Tipos de dados `string`, `number`, `object`, `array` e `boolean`. Condicionais e operadores lógicos. |
-| Projeto Final      | Ao longo do curso criamos uma loja de bicicletas Bikcraft, o site funciona em todos os tipos de telas usando a responsividade com o @media. |
+| Projeto Final      | E ao longo do curso criamos uma loja de bicicletas Bikcraft, utilizando todas os assuntos abordados no curso, o site também funciona em todos os tipos de telas usando a responsividade com o @media. |
 
 
